@@ -1,0 +1,39 @@
+{
+  "name": "tupp",
+  "version": "0.0.1",
+  "description": "The ulimativ platform project",
+  "main": "index.js",
+  "dependencies": {
+    "style-loader": "^0.23.1",
+    "vue": "^2.5.17",
+    "vue-cli": "^2.9.6",
+    "vue-router": "^3.0.2",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.config.dev.js",
+    "dev": "webpack-dev-server --config build/webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbrosow/tupp.git"
+  },
+  "author": "Torsten Brosow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbrosow/tupp/issues"
+  },
+  "homepage": "https://github.com/tbrosow/tupp#readme"
+}
